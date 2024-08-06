@@ -2,7 +2,7 @@
   roles:
   - build
 
-#  tasks:
-#    - name: DEBUG
-#      debug:
-#        msg: "DEBUG"
+  tasks:
+    - name: DEBUG
+      debug:
+        msg: "DEBUG"
