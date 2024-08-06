@@ -1,3 +1,8 @@
 - hosts: builder
   roles:
   - build
+
+  tasks:
+    - name: DEBUG
+      debug:
+        msg: "DEBUG"
